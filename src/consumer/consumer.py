@@ -1,19 +1,10 @@
 import kafka
 from json import loads
-from  psycopg2 import connect
-
 
 
 class Consumer():
     def __init__(self):
-        self.conn = connect(
-                    host="localhost",
-                    database="suppliers",
-                    user="postgres",
-                    password="Ja15082020*")
-
-        self.cur = conn.cursor()
-
+        print("Initializating!")
 
 
     def insert_into_postgres(self):

@@ -8,14 +8,10 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener
 
-
 consumer_key="Lwp5cwDioiJ1bDqnYi1uxXPD2"
 consumer_secret="fJ2zT2wFPgEhAclTIcN7cnDBkc7qpB1lcN2wDlgumNJ07qwkGQ"
 access_token_key="1312165577633525760-LmWZsZ0fjkFImlMUbi9UXHo7Gy4g6T"
 access_token_secret="JPLH8IZu1j2Df9O394cnKHbUSI4HZGgOxsglueDkBPmO5"
-
-
-
 
 class TwitterAuth():
 
